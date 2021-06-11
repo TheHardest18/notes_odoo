@@ -7,3 +7,8 @@ git clone https://github.com/odoo/odoo.git -b 12.0 --depth 1
 Creacion de modulos con scaffold
 ./odoo-bin scaffold module_test /home/isias/Odoo/Odoo12/customaddons
 
+Codigo Pycharm
+-c /home/isias/Odoo/Odoo12/odooconfig.conf -d isias -u l10n_do_tss_reports
+-c /home/isias/Odoo/Odoo12/odooconfig.conf -d <db> -u <modules>
+
+
