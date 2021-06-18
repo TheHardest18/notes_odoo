@@ -11,4 +11,12 @@ Codigo Pycharm
 -c /home/isias/Odoo/Odoo12/odooconfig.conf -d isias -u l10n_do_tss_reports
 -c /home/isias/Odoo/Odoo12/odooconfig.conf -d <db> -u <modules>
 
+Tienes que crear un rol de usuario para postgres.
+
+sudo -u postgres createuser -s nombre de usuario
+sudo su postgres
+psql
+modificar el nombre de usuario del usuario con la contraseña 'contraseña';
+\q
+
 
