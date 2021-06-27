@@ -19,4 +19,6 @@ psql
 modificar el nombre de usuario del usuario con la contraseña 'contraseña';
 \q
 
+Creacion de archivo de configuracion
+python odoo-bin --stop-after-init -s -c nombre_del_arcivo.conf
 
