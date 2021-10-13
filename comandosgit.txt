@@ -22,3 +22,5 @@ modificar el nombre de usuario del usuario con la contraseña 'contraseña';
 Creacion de archivo de configuracion
 python odoo-bin --stop-after-init -s -c nombre_del_arcivo.conf
 
+Create Virtual Env
+python3 -m venv odoo-venv
