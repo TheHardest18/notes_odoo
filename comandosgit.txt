@@ -3,6 +3,8 @@ git commit -m "[ADD] l10n_do_tss_reports: report tss"
 git clone https://www.github.com/odoo/odoo.git --depth 1 --branch 12.0 --single-branch
 o
 git clone https://github.com/odoo/odoo.git -b 12.0 --depth 1
+//Para Odoo 11
+git clone https://github.com/odoo/odoo.git /home/odoo/odoo-11.0 -b 11.0 --depth=1
 
 Creacion de modulos con scaffold
 ./odoo-bin scaffold module_test /home/isias/Odoo/Odoo12/customaddons
