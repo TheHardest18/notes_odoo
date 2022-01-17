@@ -26,3 +26,9 @@ python odoo-bin --stop-after-init -s -c nombre_del_arcivo.conf
 
 Create Virtual Env
 python3 -m venv odoo-venv
+******************DockerDoo*************************
+Create new module
+sudo docker exec -it f74 bash  -----------------> f74 is my id-container para buscarlo usa este comando, sudo docker ps
+
+Despues
+odoo scaffold new_module /mnt/extra-addons/
