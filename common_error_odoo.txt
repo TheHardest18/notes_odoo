@@ -1,0 +1,2 @@
+for the column table (Header or TH) repeat in another page:
+Delete <Thead></thead> tag
