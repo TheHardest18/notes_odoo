@@ -1,7 +1,7 @@
 <!--How to assign paperformat to existent report odoo-->
 <odoo>
   <data>
-      <record id="external_id_report" model="ir.actions.report">
+      <record id="QWEB_external_id_report" model="ir.actions.report">
             <field name="paperformat_id" ref="MyModule.custom_paperformat_id"/>
       </record>
   </data>
