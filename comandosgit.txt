@@ -32,3 +32,11 @@ sudo docker exec -it f74 bash  -----------------> f74 is my id-container para bu
 
 Despues
 odoo scaffold new_module /mnt/extra-addons/
+
+Update module with odoo docker
+-Search ID of container an name
+ docker ps
+ -Exec container
+  docker exec -it container_id bash
+-Command to udpdate
+ ./odoo-bin --database name_database -u name_module
